@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Motionsplan Search feature.
+ */
+
+include_once 'motionsplan_search.features.inc';
