@@ -43,6 +43,7 @@ function motionsplan_search_default_search_api_index() {
         "status" : { "type" : "boolean" },
         "taxonomy_vocabulary_3" : { "type" : "list\\u003Cinteger\\u003E", "entity_type" : "taxonomy_term" },
         "taxonomy_vocabulary_4" : { "type" : "list\\u003Cinteger\\u003E", "entity_type" : "taxonomy_term" },
+        "taxonomy_vocabulary_5" : { "type" : "list\\u003Cinteger\\u003E", "entity_type" : "taxonomy_term" },
         "title" : { "type" : "text" }
       },
       "data_alter_callbacks" : {
@@ -181,6 +182,12 @@ function motionsplan_search_default_search_api_server() {
           },
           "field_training_type" : {
             "table" : "search_api_db_exercises_field_training_type",
+            "column" : "value",
+            "type" : "list\\u003Cinteger\\u003E",
+            "boost" : "1.0"
+          },
+          "taxonomy_vocabulary_5" : {
+            "table" : "search_api_db_exercises_taxonomy_vocabulary_5",
             "column" : "value",
             "type" : "list\\u003Cinteger\\u003E",
             "boost" : "1.0"
