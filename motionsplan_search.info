@@ -10,6 +10,7 @@ dependencies[] = search_api
 dependencies[] = search_api_db
 dependencies[] = search_api_views
 dependencies[] = views
+dependencies[] = transliteration
 features[ctools][] = facetapi:facetapi_defaults:1
 features[ctools][] = views:views_default:3.0
 features[facetapi][] = search_api@exercises::field_training_type
