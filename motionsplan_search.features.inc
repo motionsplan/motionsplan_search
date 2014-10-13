@@ -188,7 +188,7 @@ function motionsplan_search_default_search_api_server() {
           },
           "taxonomy_vocabulary_5" : {
             "table" : "search_api_db_exercises_taxonomy_vocabulary_5",
-            "column" : "value",
+            "column" : "taxonomy_vocabulary_5",
             "type" : "list\\u003Cinteger\\u003E",
             "boost" : "1.0"
           }
