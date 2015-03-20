@@ -8,6 +8,7 @@ dependencies[] = facetapi
 dependencies[] = motionsplan_exercise
 dependencies[] = search_api
 dependencies[] = search_api_db
+dependencies[] = search_api_facetapi
 dependencies[] = search_api_views
 dependencies[] = transliteration
 dependencies[] = views
